@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100%;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 50px;
+}
+
+header #logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header img{
+    height: 25px;
+}
+
+header button{
+    padding: 10px 25px;
+    border-radius: 15px;
+    background-color:lightblue;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 33px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #000;
+}
+
+.ri-menu-line{
+    display: none;
+}
+
+main{
+    padding: 50px;
+}
+
+#main-content h1{
+    padding-bottom: 15px;
+}
+
+#main-content h3{
+    padding-bottom: 15px;
+}
+
+form{
+    padding-top: 66px;
+}
+
+.form-section{
+    padding-bottom: 33px;
+}
+
+.question{
+    padding-bottom: 25px;
+}
+
+form h3{
+    padding: 33px 0;
+}
+
+input{
+    margin-top: 15px;
+    padding: 10px;
+}
+
+textarea{
+     margin-top: 15px;
+}
+
+#reset-button{
+    padding: 10px 25px;
+    border-radius: 15px;
+    background-color: red;
+}
+
+#submit-button{
+    padding: 10px 25px;
+    border-radius: 15px;
+    background-color: green;
+    margin-left: 15px;
+}

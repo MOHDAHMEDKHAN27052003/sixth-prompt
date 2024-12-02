@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback form | Vivaldi</title>
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="logo">
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.sEU57mS72TeJCiLAWXHySgHaHX%26pid%3DApi&f=1&ipt=e23ad60a7f40c8baa7201f382104e3fa584938721640a72a5af84a21b629657b&ipo=images" alt="logo">
+                <h1>VIVALDI</h1>
+            </div>
+            <a href="">Browser</a>
+            <a href="">Mail</a>
+            <a href="">News</a>
+            <a href="">Community</a>
+            <a href="">About</a>
+        </nav>
+        <button>Download <i class="ri-download-line"></i></button>
+        <i class="ri-menu-line"></i>
+    </header>
+    <main>
+        <div id="main-content">
+            <h1>Thank you for using Vivaldi!</h1>
+            <h3>We are happy to see you active.</h3>
+            <p>Help us improve Vivaldi by sharing what did and didn’t work for you. Your opinion matters to us.</p>
+        </div>
+        <form action="" method="post">
+            <div class="form-section">
+                <h3>Basic info</h3>
+                <div class="question">
+                    <h5>1. What is your name?</h5>
+                    <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                </div>
+                <div class="question">
+                    <h5>2. Enter your mail</h5>
+                    <input type="email" name="email" id="email" placeholder="userid@company.domain" required>
+                </div>
+                <div class="question">
+                    <h5>3. Enter your age in years</h5>
+                    <input type="number" name="age" id="age" min="10" required>
+                </div>
+                <div class="question">
+                    <h5>4. Enter your contact no.</h5>
+                    <input type="tel" name="contact" id="contact" pattern="[0-9]{10}" >
+                </div>
+                <div class="question">
+                    <h5>5. How long have you been using Vivaldi?</h5>
+                    <input type="radio" name="one" id="one">
+                    <label for="one">Less than a month</label><br>
+                    <input type="radio" name="two" id="two">
+                    <label for="two">Less than a year</label><br>
+                    <input type="radio" name="three" id="three">
+                    <label for="three">Over a year</label>
+                </div>
+            </div>
+            <hr>
+            <div class="form-section">
+                <h3>Experience</h3>
+                <div class="question">
+                    <h5>6. How satisfied are you with Vivaldi? (1 = Not Satisfied, 5 = Very Satisfied):</h5>
+                    <input type="radio" name="one" id="one">
+                    <label for="one">1</label><br>
+                    <input type="radio" name="two" id="two">
+                    <label for="two">2</label><br>
+                    <input type="radio" name="three" id="three">
+                    <label for="three">3</label><br>
+                    <input type="radio" name="four" id="four">
+                    <label for="four">4</label><br>
+                    <input type="radio" name="five" id="five">
+                    <label for="five">5</label>
+                </div>
+                <div class="question">
+                    <h5>7. What features do you think need improvement or enhancement?</h5>
+                    <textarea name="" id="" cols="40" rows="10" required></textarea>
+                </div>
+                <div class="question">
+                    <h5>8. Have you encountered any bugs or issues?</h5>
+                    <input type="radio" name="yes" id="yes">
+                    <label for="yes">Yes</label><br>
+                    <input type="radio" name="no" id="no">
+                    <label for="no">No</label>
+                    <h5>(If Yes, please describe):</h5>
+                    <textarea name="" id="" cols="40" rows="10"></textarea>
+                </div>
+            </div>
+            <hr>
+            <div class="form-section">
+                <h3>Features</h3>
+                <div class="question">
+                    <h5>9. What features did you like in Vivaldi?</h5>
+                    <input type="checkbox" name="one" id="one">
+                    <label for="one">UI</label><br>
+                    <input type="checkbox" name="two" id="two">
+                    <label for="two">Privacy</label><br>
+                    <input type="checkbox" name="three" id="three">
+                    <label for="three">Customization</label><br>
+                    <input type="checkbox" name="four" id="four">
+                    <label for="four">Other</label>
+                </div>
+            </div>
+            <button id="reset-button" type="reset">Reset</button>
+            <button id="submit-button" type="submit">Submit</button>
+        </form>
+    </main>
+</body>
+</html>

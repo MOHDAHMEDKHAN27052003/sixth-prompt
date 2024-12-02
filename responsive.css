@@ -1,0 +1,30 @@
+/* Large screens (laptops, desktops) */
+@media (min-width: 1200px) {
+    /* Styles for larger screens */
+  }
+  
+  /* Medium screens (tablets in landscape) */
+  @media (max-width: 1024px) {
+    /* Styles for tablets or small laptops */
+    header button{
+        display: none;
+    }
+
+    nav a{
+        display: none;
+    }
+
+    header .ri-menu-line{
+        display: initial;
+    }
+  }
+  
+  /* Small screens (tablets in portrait) */
+  @media (max-width: 768px) {
+    /* Styles for portrait tablets or large phones */
+  }
+  
+  /* Extra small screens (mobile) */
+  @media (max-width: 480px) {
+    /* Styles for phones */
+  }  
